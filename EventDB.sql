@@ -26,6 +26,9 @@
 --eventid INT FOREIGN KEY REFERENCES [Event](id)
 --);
 
+--ALTER TABLE Favorite
+--ALTER COLUMN currentuserid INT
+
 --INSERT INTO [User] (username, [admin])
 --VALUES ('Admin', 1),
 --('Ramses', 0),
